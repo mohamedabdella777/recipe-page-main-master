@@ -17,7 +17,7 @@ body{
 }
 .container{
     height: auto;
-    max-width: 45%;
+    max-width: 50%;
     margin: 120px 0 0 0;
     background: #fff;
     border-radius: 10px;
@@ -36,15 +36,15 @@ img{
 }
 .paragraph p{
    padding: 0 10px;
-    margin-top: 5px;
+    margin-top: -30px;
     color: hsl(32, 9.80%, 33.90%);
-    font-size: 16px;
     font-weight: 100;
    
 }
 .head h1{
-    color: hsl(32, 9.80%, 33.90%);
+    color:hsl(24, 5%, 18%) ;
     font-weight: 300;
+    font-size: 45px;
 }
 .head{
    margin-left: 30px;
@@ -77,11 +77,16 @@ ul,ol{
 .Preparation {
     margin-left: 5px;
     background: hsl(332, 51%, 32%,0.04);
-    
-}
-.Preparation{
     font-size: 16px;
     font-weight: 100;
+}
+.Preparation ul{
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: -35px;
+}
+.Instructions{
+ margin-top: -20px;
 }
  
 .Ingredients h3 ,.Instructions h3 ,.Nutrition h3{
@@ -106,6 +111,10 @@ ol li{
     padding-left: 12px;
     line-height: 1.8;
 }
+.Nutrition{
+    margin-top: -20px;
+}
+
 .Nutrition p{
     margin-left: 20px;
     margin-top: -10px;
@@ -138,7 +147,7 @@ margin-left: 20px;
     font-weight: 100;
 }
 .table{
-    margin-top: 20px;
+    margin-top: -20px;
     width: 60%;
 }
 
